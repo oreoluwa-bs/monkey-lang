@@ -3,9 +3,9 @@ package parser
 import (
 	"fmt"
 
-	"github.com/oreoluwa-bs/monkey/ast"
-	"github.com/oreoluwa-bs/monkey/lexer"
-	"github.com/oreoluwa-bs/monkey/token"
+	"github.com/oreoluwa-bs/monkey-lang/ast"
+	"github.com/oreoluwa-bs/monkey-lang/lexer"
+	"github.com/oreoluwa-bs/monkey-lang/token"
 )
 
 type Parser struct {

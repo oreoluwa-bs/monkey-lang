@@ -1,6 +1,6 @@
 package ast
 
-import "github.com/oreoluwa-bs/monkey/token"
+import "github.com/oreoluwa-bs/monkey-lang/token"
 
 type Node interface {
 	TokenLiteral() string

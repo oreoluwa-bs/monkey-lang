@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/oreoluwa-bs/monkey/lexer"
-	"github.com/oreoluwa-bs/monkey/token"
+	"github.com/oreoluwa-bs/monkey-lang/lexer"
+	"github.com/oreoluwa-bs/monkey-lang/token"
 )
 
 const PROMPT = ">> "
