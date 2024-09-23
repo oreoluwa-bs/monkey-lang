@@ -24,6 +24,7 @@ const (
 	// Identifiers and literals
 	IDENTIFIER = "IDENTIFIER"
 	INT        = "INT"
+	FLOAT      = "FLOAT"
 
 	// Operators
 	ASSIGN   = "="
