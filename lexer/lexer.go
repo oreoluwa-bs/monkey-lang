@@ -107,9 +107,8 @@ func (l *Lexer) NextToken() token.Token {
 
 			if l.ch == '.' {
 				l.readChar()
-				ch2 := l.readNumber()
 				tok.Type = token.FLOAT
-				tok.Literal = tok.Literal + "." + ch2
+				tok.Literal = tok.Literal + "." + l.readNumber()
 			}
 
 			return tok
